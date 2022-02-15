@@ -17,8 +17,3 @@ function CentigradosFahrenheit ()
 	fahrenheit = fahrenheit.toFixed(2);
 	alert(`${centigrados} grados Centigrados son ${fahrenheit} grados Fahrenheit`);
 }
-
-
-// un grado Fahrenheit es (X °C * 1.8) + 32
-
-// un grado Celsius es (X °F - 32) * (5/9)
