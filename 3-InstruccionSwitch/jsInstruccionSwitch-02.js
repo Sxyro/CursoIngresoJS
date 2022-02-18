@@ -1,10 +1,14 @@
 function mostrar()
 {
-	//tomo el mes
-	var mesDelAño =txtIdMes.value;
-	alert(mesDelAño);
+	let mes = document.getElementById("txtIdMes").value;
 
-
-
-
-}//FIN DE LA FUNCIÓN
+	switch (mes) {
+		default: 
+			alert("Aún no llegó el invierno");
+		break;
+		case "Agosto":
+		case "Julio":
+			alert("Abrigate que hace frio");
+		break;
+	}
+}
